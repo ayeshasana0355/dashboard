@@ -1,4 +1,4 @@
-📊 Meta Ad Performance Dashboard
+# 📊 Meta Ad Performance Dashboard
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
@@ -9,7 +9,7 @@
 
 ---
 
-🧾 Project Overview
+## 🧾 Project Overview
 
 This Power BI dashboard transforms raw Meta advertising data into actionable business intelligence. It delivers a modern, interactive analytics experience inspired by Meta's design language — enabling marketers and analysts to track performance, compare platforms, and optimise campaign strategy at a glance.
 
@@ -17,21 +17,21 @@ A total budget of **$2.5M** was analysed across **339,812 impressions**, **25,40
 
 ---
 
-📸 Dashboard Preview
+## 📸 Dashboard Preview
 
 | Facebook View | Instagram View |
 |---|---|
-| ![Facebook](./screenshots/facebook.png) | ![Instagram](./screenshots/instagram.png) |
+| ![Facebook](https://github.com/ayeshasana0355/dashboard/blob/main/facebook.png?raw=true) | ![Instagram](https://github.com/ayeshasana0355/dashboard/blob/main/instagram.png?raw=true) |
 
 | Campaign & Ad Performance | Executive Summary |
 |---|---|
-| ![Campaign](./screenshots/campaign.png) | ![Summary](./screenshots/summary.png) |
+| ![Campaign](https://github.com/ayeshasana0355/dashboard/blob/main/campaign.png?raw=true) | ![Summary](https://github.com/ayeshasana0355/dashboard/blob/main/summary.png?raw=true) |
 
 ---
 
-✨ Key Features
+## ✨ Key Features
 
-🔢 KPI Tracking
+### 🔢 KPI Tracking
 - Real-time KPI cards: Impressions, Clicks, Shares, Comments, Purchases, Engagements
 - Derived metrics: CTR, Conversion Rate, Engagement Rate, Purchase Rate
 - Platform-level budget breakdown (Facebook vs Instagram)
@@ -98,16 +98,13 @@ A total budget of **$2.5M** was analysed across **339,812 impressions**, **25,40
 ## 📁 Project Structure
 
 ```
-meta-ad-dashboard/
-├── MetaAdDashboard.pbix       # Main Power BI file
-├── data/
-│   └── meta_ads_raw.xlsx      # Source dataset
-├── screenshots/
-│   ├── facebook.png
-│   ├── instagram.png
-│   ├── campaign.png
-│   └── summary.png
-└── README.md
+dashboard/
+├── Meta Ad Analysis Final Dashboard.pbix
+├── README.md
+├── facebook.png
+├── instagram.png
+├── campaign.png
+└── summary.png
 ```
 
 ---
@@ -116,12 +113,11 @@ meta-ad-dashboard/
 
 1. Clone this repository
    ```bash
-   git clone https://github.com/yourusername/meta-ad-dashboard.git
+   git clone https://github.com/ayeshasana0355/dashboard.git
    ```
-2. Open `MetaAdDashboard.pbix` in **Power BI Desktop**
-3. If prompted, update the data source path to point to `data/meta_ads_raw.xlsx`
-4. Click **Refresh** to load the data
-5. Explore using the slicers on the right panel
+2. Open `Meta Ad Analysis Final Dashboard.pbix` in **Power BI Desktop**
+3. Click **Refresh** to load the data
+4. Explore using the slicers on the right panel
 
 ---
 
@@ -139,8 +135,8 @@ meta-ad-dashboard/
 
 ## 🤝 Connect
 
-If you found this project useful or have questions, feel free to connect on [LinkedIn] (https://www.linkedin.com/in/ayesha-sana-3908a130b?utm_source=share_via&utm_content=profile&utm_medium=member_android)or open an issue.
+If you found this project useful or have questions, feel free to connect on [LinkedIn](https://www.linkedin.com/in/ayesha-sana-3908a130b?utm_source=share_via&utm_content=profile&utm_medium=member_android) or open an issue.
 
 ---
 
-*Built with 💙 using Power BI | Data period: May–August 2025*# dashboard
+*Built with 💙 using Power BI | Data period: May–August 2025*
